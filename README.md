@@ -1,6 +1,6 @@
 # Kafka to BigQuery Pipeline
 
-A pipeline that reads from Kafka and writes to BigQuery using Apache Beam.
+A pipeline that reads from Kafka and writes to BigQuery using Dataflow (Apache Beam on Google Cloud Platform).
 
 ## Table of Contents
 1. [Introduction](#introduction)
