@@ -1,0 +1,13 @@
+options:
+  runner: DataflowRunner
+  temp_location: gs://<gcs-bucket>/temp
+  staging_location: gs://<gcs-bucket>/staging
+  project: <project-id>
+  region: <region>
+  streaming: false
+  setup_file: ./setup.py
+
+batch_inserts:
+  max_buffer_size: 1000
+  schema: publish_at:TIMESTAMP, load_at:TIMESTAMP, record:STRING
+  
