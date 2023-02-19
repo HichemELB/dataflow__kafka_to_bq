@@ -1,0 +1,8 @@
+kafka:
+  brokers: <kafka-brokers>
+  consumer_group: <kafka-consumer-group>
+
+kafka_topics:
+  - <kafka-topic-1>
+  - <kafka-topic-2>
+  - <kafka-topic-3>

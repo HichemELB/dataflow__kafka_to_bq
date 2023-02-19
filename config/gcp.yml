@@ -1,0 +1,4 @@
+google_cloud_options:
+  project: project-name
+  table: table-name
+  dataset: dataset-name
