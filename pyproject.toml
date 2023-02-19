@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "dataflowkafkatobigquery"
+version = "0.1.0"
+description = "A pipeline that reads from Kafka and writes to BigQuery using Dataflow (Apache Beam on Google Cloud Platform)."
+authors = ["HichemELB <hi.boug@gmail.com>"]
+license = "This program is licensed under the MIT License."
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.11,>=3.7.1"
+apache-beam = {version = "^2.30.0", extras = ["gcp"]}
+google-cloud-bigquery = "^2.26.0"
+google-cloud-storage = "^1.38.0"
+google-auth = "^1.35.0"
+google-auth-oauthlib = "^0.4.5"
+google-auth-httplib2 = "^0.4.6"
+google-api-python-client = "^2.30.0"
+pytz = "^2021.3"
+fire = "^0.5.0"
+pytest = "^7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
