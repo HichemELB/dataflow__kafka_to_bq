@@ -103,7 +103,6 @@ This file contains two sections:
 ## Todo
 
 - Add error handling and retries.
-- Add unit tests.
 - Add support for more Dataflow runners.
 - Add support for Avro and other message formats.
 
